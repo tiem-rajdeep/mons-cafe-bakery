@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#5D1231" />
+
+  <!-- SEO -->
+  <title>Mon's Café & Bakery — Custom Cakes & Baked Goods | Saptapalli, Habra</title>
+  <meta name="description" content="Mon's Café & Bakery — Premium custom cakes, bento cakes, brownies, pizzas & more. Free home delivery within 5 km of Saptapalli, Habra. Order via WhatsApp: +91 8617878810." />
+  <meta name="keywords" content="bakery habra, custom cake habra, bento cake saptapalli, birthday cake habra, anniversary cake west bengal, home bakery habra, Mon's Cafe Bakery" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://monscafebakery.in/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Mon's Café & Bakery — Custom Cakes & Baked Goods" />
+  <meta property="og:description" content="Premium handcrafted cakes and baked goods. Free delivery within 5 km of Saptapalli, Habra. Order via WhatsApp!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/birthday-cake.jpg" />
+
+  <!-- Local Business Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Bakery",
+    "name": "Mon's Café & Bakery",
+    "description": "Premium home bakery offering custom cakes, bento cakes, brownies, pizza and more.",
+    "telephone": "+918617878810",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Saptapalli",
+      "addressLocality": "Habra",
+      "addressRegion": "West Bengal",
+      "addressCountry": "IN"
+    },
+    "url": "https://monscafebakery.in/",
+    "sameAs": [
+      "https://www.facebook.com/share/1BHCJYoH86/",
+      "https://www.instagram.com/mons_cafe.bakery"
+    ],
+    "servesCuisine": "Bakery",
+    "areaServed": "Habra"
+  }
+  </script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ═══════════════════════════════════════════════════════
+       NAVIGATION
+  ══════════════════════════════════════════════════════════ -->
+  <nav class="navbar" id="navbar" aria-label="Main navigation">
+    <div class="nav-brand">
+      <img src="assets/images/logo.png" alt="Mon's Café & Bakery Logo" class="nav-logo" id="nav-logo-img" />
+      <span class="nav-brand-text">Mon's Café & Bakery</span>
+    </div>
+
+    <ul class="nav-links" role="list">
+      <li><a href="#about" id="nav-about">Home</a></li>
+      <li><a href="#cakes" id="nav-cakes">Cakes</a></li>
+      <li><a href="#items" id="nav-items">Items</a></li>
+      <li><a href="#contact" id="nav-contact">Contact</a></li>
+    </ul>
+
+    <a href="https://wa.me/918617878810?text=Hi%20Mon%27s%20Caf%C3%A9%20%26%20Bakery!%20I%27d%20like%20to%20place%20an%20order." target="_blank" rel="noopener" class="btn btn-whatsapp nav-cta" id="nav-whatsapp-btn" aria-label="Order via WhatsApp">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+      WhatsApp Order
+    </a>
+
+    <button class="hamburger" id="hamburger-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+    <button class="mobile-menu-close" id="mobile-menu-close" aria-label="Close menu">✕</button>
+    <a href="#about" class="mobile-nav-link" id="mob-about">Home</a>
+    <a href="#cakes" class="mobile-nav-link" id="mob-cakes">Cakes</a>
+    <a href="#items" class="mobile-nav-link" id="mob-items">Items</a>
+    <a href="#contact" class="mobile-nav-link" id="mob-contact">Contact</a>
+    <a href="https://wa.me/918617878810?text=Hi%20Mon%27s%20Caf%C3%A9%20%26%20Bakery!" target="_blank" rel="noopener" class="btn btn-whatsapp" id="mob-whatsapp-btn">
+      WhatsApp Us 💬
+    </a>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════
+       LANDING PAGE (MAIN HOME SECTION)
+  ══════════════════════════════════════════════════════════ -->
+  <section class="about landing-home" id="about" aria-labelledby="about-heading">
+    <!-- Top Hero Banner with Logo & Explore Options -->
+    <div class="landing-hero-header">
+      <div class="landing-hero-inner">
+        <!-- Left Column: Brand Logo, Title & Tagline -->
+        <div class="landing-hero-left">
+          <div class="brand-logo-frame">
+            <img
+              src="assets/images/logo.png"
+              alt="Mon's Café & Bakery Logo"
+              class="brand-hero-logo"
+              id="hero-logo"
+              width="220"
+              height="220"
+            />
+          </div>
+
+          <h1 class="landing-brand-title">Mon's Café & Bakery</h1>
+          <p class="landing-brand-tagline">Handcrafted with Love ♥</p>
+          <div class="hero-location-badge">
+            📍 Saptapalli, Habra · 🚚 Free home delivery within 5 km
+          </div>
+        </div>
+
+        <!-- Right Column: Explore Cakes & Explore Items -->
+        <div class="landing-hero-right" id="explore-options">
+          <div class="explore-card reveal" id="explore-cakes-card" role="button" tabindex="0" aria-label="Explore Cakes category">
+            <img src="assets/images/birthday-cake.jpg" alt="Beautiful custom cakes" class="explore-card-bg" loading="eager" />
+            <div class="explore-card-overlay">
+              <span class="explore-card-icon" aria-hidden="true">🎂</span>
+              <h3 class="explore-card-title">Explore Cakes</h3>
+              <p class="explore-card-sub">Birthday · Anniversary · Bento · Tub · Christmas</p>
+              <a href="#cakes" class="btn btn-primary" id="explore-cakes-btn">Browse Cakes →</a>
+            </div>
+          </div>
+
+          <div class="explore-card reveal" id="explore-items-card" role="button" tabindex="0" aria-label="Explore Different Items category">
+            <img src="assets/images/pizza.jpg" alt="Various baked goods and treats" class="explore-card-bg" loading="eager" />
+            <div class="explore-card-overlay">
+              <span class="explore-card-icon" aria-hidden="true">🍕</span>
+              <h3 class="explore-card-title">Explore Items</h3>
+              <p class="explore-card-sub">Brownie · Pizza · Buns · Ice Cream Tub & more</p>
+              <a href="#items" class="btn btn-outline" id="explore-items-btn">Browse Items →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-inner">
+      <div class="about-visual reveal-left">
+        <div class="about-image-frame">
+          <img
+            src="assets/images/our-story.jpg"
+            alt="Mother and daughter baking cake together — Mon's Café & Bakery story"
+            loading="lazy"
+          />
+        </div>
+      </div>
+
+      <div class="about-text reveal-right">
+        <span class="section-label">Our Story</span>
+        <h2 class="section-title" id="about-heading">Made with Love,<br/>Baked to Perfection</h2>
+
+        <p>
+          Welcome to <strong>Mon's Café & Bakery</strong> — a home bakery born from a mother's love and a passion for creating sweet moments. Every cake we craft is made with the finest ingredients, real care, and the kind of attention you only find in a home kitchen.
+        </p>
+        <p>
+          From dreamy <strong>bento cakes</strong> and layered <strong>tub cakes</strong> to festive <strong>Christmas cakes</strong> & grand <strong>2–3 tier celebration cakes</strong>, we specialize in turning your vision into reality. We also bake fresh <strong>brownies, artisan pizzas, buns</strong>, and serve <strong>ice cream tubs</strong> — all made with love.
+        </p>
+
+        <div class="about-highlights">
+          <div class="about-highlight-item">
+            <span class="highlight-icon">🎂</span>
+            <div class="highlight-text">
+              <strong>Custom Cakes</strong>
+              <span>Birthday, Anniversary & more</span>
+            </div>
+          </div>
+          <div class="about-highlight-item">
+            <span class="highlight-icon">🌸</span>
+            <div class="highlight-text">
+              <strong>Bento Cakes</strong>
+              <span>Cute, personal-sized treats</span>
+            </div>
+          </div>
+          <div class="about-highlight-item">
+            <span class="highlight-icon">🎉</span>
+            <div class="highlight-text">
+              <strong>Celebration Tiers</strong>
+              <span>2–3 tier stunning cakes</span>
+            </div>
+          </div>
+          <div class="about-highlight-item">
+            <span class="highlight-icon">🍨</span>
+            <div class="highlight-text">
+              <strong>8 Flavours</strong>
+              <span>Choco · Mango · Rosmalai & more</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-delivery-badge">
+          🚚 Free delivery within 5 km of Saptapalli, Habra
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       CAKES GALLERY
+  ══════════════════════════════════════════════════════════ -->
+  <section class="gallery-section" id="cakes" aria-labelledby="cakes-heading">
+    <div class="container">
+      <div class="gallery-header reveal">
+        <span class="section-label">Handcrafted with Love</span>
+        <h2 class="section-title" id="cakes-heading">Our Signature Cakes</h2>
+        <p class="section-subtitle">Every cake is made to order, fresh and personalised just for you.</p>
+      </div>
+
+      <div class="gallery-grid cakes-grid" id="cakes-grid">
+        <!-- Cake cards injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       OTHER ITEMS GALLERY
+  ══════════════════════════════════════════════════════════ -->
+  <section class="gallery-section" id="items" aria-labelledby="items-heading">
+    <div class="container">
+      <div class="gallery-header reveal">
+        <span class="section-label">Beyond Cakes</span>
+        <h2 class="section-title" id="items-heading">Explore Different Items</h2>
+        <p class="section-subtitle">From savory pizzas to indulgent brownies — there's something for everyone.</p>
+      </div>
+
+      <div class="gallery-grid items-grid" id="items-grid">
+        <!-- Item cards injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       CONTACT / FOOTER SECTION
+  ══════════════════════════════════════════════════════════ -->
+  <section class="contact-section" id="contact" aria-labelledby="contact-heading">
+    <div class="contact-inner">
+      <span class="section-label">Get in Touch</span>
+      <h2 class="section-title" id="contact-heading">Order or Enquire Today</h2>
+      <p class="contact-tagline">We'd love to bake something special for you. Reach out on WhatsApp or give us a call!</p>
+
+      <div class="contact-cards">
+        <a href="https://wa.me/918617878810?text=Hi%20Mon%27s%20Caf%C3%A9%20%26%20Bakery!%20I%27d%20like%20to%20place%20an%20order." target="_blank" rel="noopener" class="contact-card reveal" id="contact-wa-btn" aria-label="WhatsApp Mon's Café & Bakery">
+          <div class="contact-card-icon whatsapp">💬</div>
+          <div class="contact-card-text">
+            <strong>WhatsApp Us</strong>
+            <span>+91 8617878810</span>
+          </div>
+        </a>
+
+        <a href="tel:+918617878810" class="contact-card reveal" id="contact-call-btn" aria-label="Call Mon's Café & Bakery">
+          <div class="contact-card-icon phone">📞</div>
+          <div class="contact-card-text">
+            <strong>Call Us</strong>
+            <span>+91 8617878810</span>
+          </div>
+        </a>
+
+        <div class="contact-card reveal" id="contact-location-card" style="cursor:default;">
+          <div class="contact-card-icon location">📍</div>
+          <div class="contact-card-text">
+            <strong>Our Location</strong>
+            <span>Saptapalli, Habra, West Bengal</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="social-section reveal">
+        <span class="social-label">Follow us for daily cake designs 🌸</span>
+        <div class="social-links">
+          <a href="https://www.instagram.com/mons_cafe.bakery" target="_blank" rel="noopener" class="social-link" id="instagram-link" aria-label="Follow on Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            Instagram
+          </a>
+          <a href="https://www.facebook.com/share/1BHCJYoH86/" target="_blank" rel="noopener" class="social-link" id="facebook-link" aria-label="Follow on Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            Facebook
+          </a>
+        </div>
+        <p class="social-follow-prompt">Stay inspired — see our latest creations daily on Instagram & Facebook ✨</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" role="contentinfo">
+    <p class="footer-brand">Mon's Café & Bakery</p>
+    <p class="footer-copy">© 2026 Mon's Café & Bakery · Saptapalli, Habra · Made with ♥</p>
+  </footer>
+
+  <!-- ═══════════════════════════════════════════════════════
+       ORDER MODAL
+  ══════════════════════════════════════════════════════════ -->
+  <div class="modal-overlay" id="order-modal" role="dialog" aria-modal="true" aria-labelledby="modal-product-name">
+    <div class="modal" id="modal-content">
+      <div class="modal-handle" aria-hidden="true"></div>
+
+      <div class="modal-header">
+        <img src="" alt="" class="modal-product-img" id="modal-img" />
+        <div class="modal-product-info">
+          <h3 id="modal-product-name">Product Name</h3>
+          <p id="modal-product-desc">Description here</p>
+        </div>
+        <button class="modal-close" id="modal-close-btn" aria-label="Close order modal">✕</button>
+      </div>
+
+      <!-- Dynamic options area -->
+      <div id="modal-options-area"></div>
+
+      <hr class="modal-divider" />
+
+      <div class="modal-note">
+        <p>💬 <strong>Pricing is confirmed over WhatsApp.</strong> Our team will reply with exact pricing based on your selections.</p>
+      </div>
+
+      <button class="btn btn-whatsapp modal-order-btn" id="modal-whatsapp-btn" aria-label="Send order via WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+        Order via WhatsApp
+      </button>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════
+       AI CHAT WIDGET
+  ══════════════════════════════════════════════════════════ -->
+  <button class="chat-fab" id="chat-fab-btn" aria-label="Open cake assistant chat" aria-expanded="false" aria-controls="chat-widget-panel">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg>
+    <span class="chat-fab-pulse" aria-hidden="true"></span>
+  </button>
+
+  <div class="chat-widget" id="chat-widget-panel" role="region" aria-label="Cake suggestion assistant">
+    <div class="chat-header">
+      <img src="assets/images/logo.png" alt="Mon's Café Assistant" class="chat-header-avatar" onerror="this.style.display='none'" />
+      <div class="chat-header-info">
+        <strong>Mon's Cake Assistant 🎂</strong>
+        <span>Ask me for suggestions!</span>
+      </div>
+      <button class="chat-header-close" id="chat-close-btn" aria-label="Close chat">✕</button>
+    </div>
+
+    <div class="chat-messages" id="chat-messages" role="log" aria-live="polite" aria-label="Chat messages">
+      <!-- Initial bot message -->
+      <div class="chat-msg bot" id="chat-welcome-msg">
+        <div class="chat-bubble">
+          🌸 Hello! I'm Mon's Cake Assistant. Tell me what you're looking for and I'll suggest the perfect cake or treat!
+          <div class="chat-suggestion-chips">
+            <button class="chat-chip" id="chip-birthday" onclick="sendChatMessage('I need a birthday cake')">🎂 Birthday cake</button>
+            <button class="chat-chip" id="chip-anniversary" onclick="sendChatMessage('Anniversary cake ideas')">💑 Anniversary</button>
+            <button class="chat-chip" id="chip-chocolate" onclick="sendChatMessage('I love chocolate')">🍫 Chocolate</button>
+            <button class="chat-chip" id="chip-bento" onclick="sendChatMessage('What is a bento cake?')">🎁 Bento cake</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="chat-input-row">
+      <input
+        type="text"
+        class="chat-input"
+        id="chat-input-field"
+        placeholder="Describe what you want…"
+        aria-label="Type your message"
+        maxlength="300"
+      />
+      <button class="chat-send-btn" id="chat-send-btn" aria-label="Send message">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Sticky WhatsApp bar (mobile only) -->
+  <a
+    href="https://wa.me/918617878810?text=Hi%20Mon%27s%20Caf%C3%A9%20%26%20Bakery!%20I%27d%20like%20to%20order%20something%20special!"
+    target="_blank"
+    rel="noopener"
+    class="sticky-wa-bar"
+    id="sticky-wa-bar"
+    aria-label="Order via WhatsApp"
+  >
+    💬 Order via WhatsApp
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
